@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Management System</title>
+    <link rel="stylesheet" type="text/css"
+          href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
+    <link rel="stylesheet" type="text/css"
+          href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="home.css">
+
+</head>
+
+<body>
+<div class="img">
+    <div class="logo"><a href="#" id="home-link" style="color: white;">EMS</a></div>
+    <nav class="nav">
+        <a href="#" id="login-link">Login</a>
+        <a href="#" id="register-link">Register</a>
+        <a href="#" onclick="showAboutUs()">About Us</a>
+        <a href="#footer" >Contact Us</a>
+        <a href="#review">Reviews</a>
+
+    </nav>
+    <div>
+        <h1 class="heading">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Welcome to
+            <br>Event Management System</h1>
+    </div>
+
+
+    <div>
+
+        <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="1000">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="../cara2.jpg" alt="eventImg" style="width:100%;">
+                </div>
+                <div class="item">
+                    <img src="../birthday.jpg" alt="eventImg" style="width:100%;">
+                </div>
+                <div class="item">
+                    <img src="../cara1.jpg" alt="eventImg" style="width:100%;">
+                </div>
+                <div class="item">
+                    <img src="../birthday2.jpg" alt="eventImg" style="width:100%;">
+                </div>
+                <div class="item">
+                    <img src="../wedding.jpg" alt="eventImg" style="width:100%;">
+                </div>
+                <div class="item">
+                    <img src="../decoration.jpg" alt="eventImg" style="width:100%;">
+                </div>
+                <div class="item">
+                    <img src="../cara3.jpg" alt="New york" style="width:100%;">
+                </div>
+
+            </div>
+
+            <!-- Left and right controls -->
+            <!--                <a class="left carousel-control" href="#myCarousel" data-slide="prev">-->
+            <!--                    <span class="glyphicon glyphicon-chevron-left"></span>-->
+            <!--                    <span class="sr-only">Previous</span>-->
+            <!--                </a>-->
+
+            <!--                <a class="right carousel-control" href="#myCarousel" data-slide="next">-->
+            <!--                    <span class="glyphicon glyphicon-chevron-right"></span>-->
+            <!--                    <span class="sr-only">Next</span>-->
+            <!--                </a>-->
+        </div>
+    </div>
+
+
+    <main>
+        <div class="container">
+            <div class="card">
+                <div class="card-body">
+                    <div class="card-title"><b>Seamless Event Execution!</b> </div>
+                    <div class="card-text">
+                        We prioritize understanding your needs and simplifying the process
+                        by identifying the essential features and engagement methods.
+                        Clear communication and regular updates to keep you informed and involved throughout the process.
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <div class="card-title"><b>On-site Event Staff! </b></div>
+                    <div class="card-text">
+                        Experienced event staff to ensure smooth operations.Skilled professionals who handle logistics,
+                        Efficient management of event setup, scheduling, and attendee support<br>
+                        Expertise in managing guest registration, ticketing, and crowd control.
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <div class="card-title"><b>All in one solution!</b></div>
+                    <div class="card-text">
+                        Venue sourcing for your event.Conceptualization and planning services.Stunning
+                        themes and floral décor, Professional audio-visual solutions.Immersive sound and lighting experiences.
+                        Spectacular fireworks displays.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="review"></div>
+
+        <div id="userReviewCarousel" class="carousel slide"  data-ride="carousel" data-interval="5000">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#userReviewCaroterusel" data-slide-to="0" class="active"></li>
+                <li data-target="#userReviewCarousel" data-slide-to="1"></li>
+                <li data-target="#userReviewCarousel" data-slide-to="2"></li>
+                <!-- Add more indicators as per your number of user reviews -->
+            </ol>
+
+            <div class="carousel-inner" >
+                <div class="item active">
+                    <img src="../person1.jpg" class="caraimg" alt="User 1">
+                    <div class="carousel-caption">
+                        <h3>Sarah Wilson</h3>
+                        <p>"The event management system streamlined our company's annual gala.
+                            It helped us promote the event, handle ticket sales, and provide a
+                            seamless check-in experience. Our attendees were impressed with the
+                            professionalism."</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="../person2.jpg" class="caraimg" alt="User 2">
+                    <div class="carousel-caption">
+                        <h3>John Doe</h3>
+                        <p>The event management system made organizing my conference a breeze.
+                            It helped me manage registrations, track attendees, and handle payments smoothly.
+                            Highly recommended!"</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="../person3.png" class="caraimg" alt="User 3">
+                    <div class="carousel-caption">
+                        <h3>Mike Johnson</h3>
+                        <p>"As an event planner, I rely on the event management system for all
+                            my projects. It offers a comprehensive set of features, including
+                            event scheduling, vendor management, and detailed reports. It has
+                            significantly improved my efficiency."</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="../person4.jpg" class="caraimg" alt="User 3">
+                    <div class="carousel-caption">
+                        <h3>Jane Smith</h3>
+                        <p>"I used the event management system for my wedding, and it exceeded
+                            my expectations. It allowed me to create a beautiful event website,
+                            send invitations, and keep track of RSVPs. It made my special day
+                            even more memorable."</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#userReviewCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#userReviewCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+            </a>
+
+
+
+            <div id="about-us-container">
+                <h2>About Us</h2>
+                <p>
+                    <br>
+                    Event Management System is a comprehensive event planning company that specializes
+                    in logistics and online services. Our dedicated team of experienced event planners,
+                    suppliers, and venues provide end-to-end event solutions. With us, you have the
+                    flexibility to make various types of bookings for your events. Discover the expertise
+                    and enthusiasm of our event professionals who are committed to delivering seamless and
+                    memorable experiences. From conceptualization to execution, we handle every aspect of
+                    event planning, ensuring your vision becomes a reality. Trust us to handle all your event
+                    booking needs and create unforgettable moments.<br><br>
+                    You can make all kinds of different booking with us!
+                </p>
+            </div>
+
+    </main>
+</div>
+<footer id="footer">
+    <div class="footer-content">
+        <p>&copy; 2023 Event Management System. All rights reserved.<br>
+            <strong>Made by Aarti</strong></p>
+        <p><b>Email:</b> aartibm1911@gmail.com</p>
+    </div>
+</footer>
+
+<script src="home.js"></script>
+</body>
+
+</html>
+

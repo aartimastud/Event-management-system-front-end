@@ -1,0 +1,57 @@
+body {
+    min-height: 100vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(4,9,30,0.5),rgba(4,9,30,0.8)),url(../event4.jpeg);
+    /*background-repeat: no-repeat;*/
+    background-size: contain;
+    padding-top: 10vh;
+    background-position: center;
+}
+
+.img{
+    height: 30px;
+}
+
+form {
+
+    background: rgba(77, 0, 0, 0.2);
+}
+
+.form-container {
+    border-radius: 20px;
+    padding: 30px;
+    height: auto;
+    width: 450px;
+    color: #ffffff;
+    box-shadow: 1px 1px 20px #ffffff;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.container {
+    display: flex;
+    min-height: 100vh;
+  }
+  
+  .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  .login-button {
+    display: block;
+    margin: 0 auto;
+    background-color: #f1f3f5;
+    border: none;
+    color: #070707;
+    padding: 10px 20px;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: background-color 0.1s ease-in-out;
+  }
+  
+  .login-button:hover {
+    background-color: #660022;
+  }
+
+  .form-footer{
+    margin-top: 10px;
+  }

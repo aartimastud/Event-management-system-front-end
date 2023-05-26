@@ -1,0 +1,211 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #4d0000;
+}
+
+.img{
+    min-height: 100vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(4,9,30,0.6),rgba(4,9,30,0.4)),url(../eventimg.jpeg);
+}
+
+.heading{
+    padding: 4% 0% 0% 27%;
+    font-size: 300%;
+    color: #ffffff;
+    font-weight: bold;
+    text-shadow: 3px 2px 4px rgba(200, 255, 0, 0.8);
+}
+
+
+.logo {
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    cursor: pointer;
+    margin-left: 40px;
+    padding-top: 28px;
+    text-shadow: 3px 2px 4px rgba(200, 255, 0, 0.8);
+}
+
+logo a:hover {
+    background-color: #660022;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 155px;
+    margin-top: -10vh;
+    border-radius: 20px;
+}
+
+.nav a {
+    background-color: rgba(77,0,0,0.6);
+
+    color: #f1ebeb;
+    font-size: 17px;
+    text-decoration: none;
+    padding: 15px 20px;
+    /*display: inline-block;*/
+    font-weight: bold;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.nav a:hover {
+    background-color: #f1ebeb;
+    color: #660022;
+}
+
+#carouselExample {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.carousel-inner {
+    width: 50%;
+}
+
+.slider-container {
+    max-width: 200px;
+    height: 100px;
+    padding-top: 10%;
+    position: relative;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+
+.container {
+    padding-top: 5%;
+    background-image:linear-gradient(rgba(4,9,30,0.1),rgba(4,9,30,0.9)),url(../event3.jpeg);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 120px;
+    box-shadow: 1px 1px 10px #ffffff;
+    transition: box-shadow 0.3s ease-in-out;
+    border-radius: 10px;
+}
+
+
+.card {
+    flex-basis: calc(33.33% - 20px);
+    margin-bottom: 70px;
+    box-shadow: 1px 2px 5px #ccc;
+    border-radius: 20px;
+    transition: box-shadow 0.3s ease-in-out;
+    box-shadow: 3px 5px 5px rgba(200, 255, 100, 0.5);
+}
+
+.card .card-body {
+    padding: 10px;
+    /*background-color: rgba(100, 255, 0, 0.2);*/
+    background-color: transparent;
+    border-radius: 20px;
+}
+
+.card .card-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: rgb(5, 4, 5);
+}
+
+.card .card-text {
+    font-size: 16px;
+    line-height: 1.5;
+    color: black;
+}
+h1{
+    padding-top: 20%;
+    padding-right: 10%;
+    padding-left: 20%;
+    font-size: 300%;
+    color: #ccc;
+}
+
+#about-us-container {
+    margin-top: 80px;
+    padding:20px;
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #ffb3b3;
+    z-index: 999;
+    color: black;
+}
+
+footer {
+    background-image:linear-gradient(rgba(4,9,30,0.1),rgba(4,9,30,0.3)),url(../eventimg.jpeg);
+    background-color: #4d0000;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 1px 1px 6px #ffffff;
+    margin-top: -130px;
+}
+
+.footer-content {
+    font-size: 17px;
+    background-color: #D38C8CFF;
+    color: #660022;
+    width: 500px;
+    margin-left: 70vh;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px #ffffff;
+}
+
+.carousel{
+    width: 120vh;
+    height: 60vh;
+    margin: 5vh 0vh 25vh 45vh;
+}
+
+.carousel-inner{
+    width: 100%;
+    height: 60vh;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px #ffffff;
+}
+
+.item{
+    height: 250px;
+}
+
+#userReviewCarousel {
+    height: 350px;
+    /*background-color: #2c2929;*/
+}
+
+.carousel-inner .caraimg {
+    width: 50%;
+    height: 25vh;
+    margin-left: 170px;
+    border-radius: 10px;
+}
+
+.review-carousel-wrapper {
+    position: relative;
+}
+
+.carousel-caption {
+    font-size: 16px;
+    position: absolute;
+    height: 130px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    color: #fff;
+    margin-bottom: -70px;
+    background-color: transparent;
+}
+  

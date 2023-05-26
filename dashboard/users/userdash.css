@@ -1,0 +1,191 @@
+body{
+    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.5)),url(../../event5.jpeg);
+    background-size: contain;
+}
+
+#navbarNav{
+    color: white;
+
+}
+
+.p-2{
+    font-size: 50px;
+    text-shadow: 6px 5px 4px rgb(54, 7, 20);
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.search{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.col {
+    flex: 1;
+}
+
+#loc{
+    margin-left: 138vh;
+    margin-top: -30vh;
+}
+
+#btn1{
+    margin-left: 96vh;
+    margin-top: -50vh;
+}
+
+#btn2{
+    margin-left: 157vh;
+    margin-top: -40px;
+}
+
+#na{
+    margin-left: 149vh;
+    margin-top: -22vh;
+}
+
+.form-floating{
+    width: 220px;
+}
+
+
+.btn-primary{
+    margin-left: 120px;
+    background-color: #1a3254;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+    border: 3px solid #9D7A7A99;
+}
+
+.form-floating{
+    width: 150px;
+    height: 50px;
+}
+
+
+#evnt{
+    margin-left: 25px;
+}
+
+.navbar-brand{
+    font-size: 27px;
+    font-weight: bold;
+    margin-left: 55px;
+    text-shadow: 3px 2px 4px rgba(200, 255, 0, 0.6);
+}
+
+.navbar-nav li.nav-item a.nav-link {
+    color: white;
+    font-size: 19px;
+    font-weight: bold;
+    text-shadow: 3px 2px 4px rgba(200, 255, 0, 0.6);
+}
+
+.table{
+    color: white;
+    border-color: rgb(80, 32, 45);
+}
+
+#tableimg{
+    background-image:linear-gradient(rgba(4,9,30,0.8),rgba(4,9,30,0.7)),url(../../event6.jpeg);
+    background-size: contain;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.color{
+    background-color: rgba(77,0,0,0.6);
+    font-size: 18px;
+    box-shadow: 2px 2px 8px 2px #cbc3c3;
+    text-shadow: 3px 2px 4px rgba(200, 255, 0, 0.5);
+}
+
+.slot-booking-button {
+    width: 150px; /* Set the desired width here */
+}
+
+footer {
+    background-image:linear-gradient(rgba(4,9,30,0.1),rgba(4,9,30,0.3)),url(../../eventimg.jpeg);
+    background-color: #4d0000;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 1px 1px 6px #ffffff;
+    margin-top: 100px;
+    margin-left: -48px;
+    margin-right: -47px;
+}
+
+.footer-content {
+    font-size: 17px;
+    background-color: #D38C8CFF;
+    color: #660022;
+    width: 500px;
+    margin-left: 70vh;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px #ffffff;
+}
+
+footer {
+    background-image:linear-gradient(rgba(4,9,30,0.1),rgba(4,9,30,0.3)),url(../../eventimg.jpeg);
+    background-color: #4d0000;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 1px 1px 6px #ffffff;
+    margin-top: 100px;
+    width: 100%;
+    margin-left: 0px;
+
+}
+
+.footer-content {
+    font-size: 17px;
+    background-color: #D38C8CFF;
+    color: #660022;
+    width: 500px;
+    margin-left: 70vh;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px #ffffff;
+}
+
+.modal-dialog {
+    margin:170px 420px auto;
+}
+
+.modal-content {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+.modal-header {
+    background-color: #555555;
+    color: #ffffff;
+    text-align: center;
+}
+
+.modal-body {
+    text-align: center;
+}
+
+.modal-footer {
+    justify-content: center;
+}
+
+.btn-secondary {
+    background-color: #888888;
+}
+
+

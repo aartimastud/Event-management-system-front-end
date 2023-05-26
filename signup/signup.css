@@ -1,0 +1,104 @@
+body {
+    min-height: 100vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.6)),url(../event4.jpeg);
+    background-size: contain;
+    padding-top: 10vh;
+}
+
+.btn-login a{
+   color: black;
+   background-color: black;
+   border-radius: 5px;
+}
+.text-white{
+    color: #0062cc;
+}
+form {
+    background: rgba(77, 0, 0, 0.2);
+}
+
+.form-container {
+    border-radius: 20px;
+    padding: 30px;
+    height: 95%;
+    width: 120%;
+    color: #ffffff;
+    box-shadow: 1px 1px 20px #ffffff;
+    transition: box-shadow 0.3s ease-in-out;
+}
+p{
+    color: #f2f4f7;
+}
+
+.container {
+    display: flex;
+    min-height: 100vh;
+}
+
+.form-group {
+    color: #f8f9fa;
+    margin-bottom: 1rem;
+}
+
+.login-button {
+    display: block;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.1s ease-in-out;
+}
+
+.login-button:hover {
+    background-color: #660022;
+}
+
+.form-footer {
+    margin-top: 10px;
+}
+
+.form-check-input[type="radio"] {
+    margin-top: 0.3rem;
+    margin-right: 0.5rem;
+}
+
+.dropdown-menu {
+    min-width: unset;
+}
+
+.dropdown-item:hover {
+    background-color: #f8f9fa;
+}
+
+.modal-dialog {
+    margin:170px 420px auto;
+}
+
+.modal-content {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+.modal-header {
+    background-color: #555555;
+    color: #ffffff;
+    text-align: center;
+}
+
+.modal-body {
+    text-align: center;
+}
+
+.modal-footer {
+    justify-content: center;
+}
+
+.btn-secondary {
+    background-color: #888888;
+}
+
+

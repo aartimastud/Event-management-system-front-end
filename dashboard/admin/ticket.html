@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <title>Book Tickets</title>
+    <link rel="stylesheet" href="ticket.css">
+    <link rel="stylesheet" href="admin.css">
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="viewAllEvents.html">Event Admin Control</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item ms-10">
+                    <a class="nav-link" href="./viewAllEvents.html" id="events">Events</a>
+                </li>
+                <li class="nav-item ms-10">
+                    <a class="nav-link" href="./createNewEvent.html">New Event</a>
+                </li>
+                <li class="nav-item ms-10">
+                    <a class="nav-link" onclick="logOut()">Logout</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<form id="set-ticket-form" class="ticket-card">
+    <div class="row">
+        <div class="col">
+            <div class="alert alert-danger" role="alert" id="errMsg">
+            </div>
+        </div>
+    </div>
+    <h1 class="mt-5"><b>Book Ticket</b></h1>
+    <div class="card ssd">
+        <div class="card-body">
+            <div class="mb-3">
+                <label for="ticket-type" class="form-label">Ticket Type</label>
+                <select class="form-select" id="type" name="type">
+                    <option value="vip">VIP</option>
+                    <option value="earlybird">Early Bird</option>
+                    <option value="lateentry">Late Entry</option>
+                    <option value="group">Group</option>
+                </select>
+            </div>
+            <div class="mb-3">
+                <label for="ticket-price" class="form-label">Ticket Price</label>
+                <input type="number" class="form-control" id="price" name="price" placeholder="INR" required>
+            </div>
+
+            <div class="button">
+                <button type="button" class="btn btn-danger" onclick="goBack()">Back</button>
+                <button type="submit" class="btn btn-success">Set</button>
+            </div>
+        </div>
+    </div>
+</form>
+<div class="modal fade" id="successModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Success</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                Ticket Created Successfully
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success" onclick="backToUpdate()">CLOSE</button>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="setTicket.js"></script>
+</body>
+
+</html>
